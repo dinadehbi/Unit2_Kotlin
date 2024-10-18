@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor "Manager" as fc
+rectangle Library {
+    usecase "Add" as UC1
+    usecase "Delete" as UC2
+    usecase "Edit" as UC3
+    usecase "Search" as UC4
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+fc -- UC4
+@enduml
