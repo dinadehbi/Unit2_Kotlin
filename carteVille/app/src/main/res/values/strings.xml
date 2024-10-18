@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">Change destination</string> <!-- Add this line -->
+    <string name="dice_description">Dice showing %1$d</string> <!-- Optional for accessibility -->
+</resources>
